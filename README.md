@@ -1,5 +1,4 @@
-# Creating a README file content for the project on HBase data storage and retrieval
-readme_content = """# Project Title: HBase Data Storage and Retrieval Application
+# Project Title: HBase Data Storage and Retrieval Application
 
 ## Description
 This project involves the development of an application that facilitates the storage and retrieval of data from an HBase cluster using Python. HBase is a distributed, scalable, NoSQL database that runs on top of the Hadoop Distributed File System (HDFS). The application will demonstrate how to efficiently interact with HBase, including operations such as inserting, querying, and updating records.
@@ -30,3 +29,37 @@ This project involves the development of an application that facilitates the sto
 - Required Python libraries:
   ```bash
   pip install happybase
+  ```
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/hbase-data-storage-retrieval.git
+   cd hbase-data-storage-retrieval
+   ```
+
+2. Set up your HBase configuration in the application:
+   - Update the HBase connection parameters in the `config.py` file.
+
+### Usage
+To run the application:
+```bash
+python app.py
+```
+
+- Use the command line interface to enter data and execute queries.
+- Follow the prompts to insert, retrieve, update, or delete records.
+
+## Code Structure
+- `app.py`: Main application file for interacting with HBase.
+- `config.py`: Configuration file for HBase connection settings.
+- `data_operations.py`: Contains functions for performing CRUD operations.
+- `README.md`: Documentation for the project.
+
+## References
+- [HBase Documentation](https://hbase.apache.org/)
+- [HappyBase Documentation](https://happybase.readthedocs.io/en/latest/)
+
+## Author
+- **Kharbouche Bilal**  
+  Email: bilal.kharbouche99@gmail.com
